@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundTelas">#9EE2DC</color>
+
+    <color name="salvar">#16CA76</color>
+    <color name="cancelar">#CC164C</color>
+</resources>

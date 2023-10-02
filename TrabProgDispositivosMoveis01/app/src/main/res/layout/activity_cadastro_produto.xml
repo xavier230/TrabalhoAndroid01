@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundTelas"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro Produto"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:id="@+id/tvTitulo"
+
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cod Item:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:id="@+id/tvCod"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:id="@+id/edCod"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:id="@+id/tvDescricao"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="10sp"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:id="@+id/edDescricao"
+
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valor Produto:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:layout_margin="10dp"
+            android:id="@+id/tvValorProduto"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:id="@+id/edValorProduto"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        >
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Sair"
+            android:id="@+id/btSair"
+
+
+            />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Salvar"
+            android:id="@+id/btSalvar"
+
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
